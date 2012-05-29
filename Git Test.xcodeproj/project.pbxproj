@@ -26,6 +26,7 @@
 		933D6EF31574F0500039A057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933D6EC61574F04F0039A057 /* Foundation.framework */; };
 		933D6EFB1574F0500039A057 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 933D6EF91574F0500039A057 /* InfoPlist.strings */; };
 		933D6EFE1574F0500039A057 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 933D6EFD1574F0500039A057 /* Git_TestTests.m */; };
+		9F17ADD31575071E00CE1177 /* somenewfiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F17ADD21575071E00CE1177 /* somenewfiles.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		933D6EFA1574F0500039A057 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		933D6EFC1574F0500039A057 /* Git_TestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Git_TestTests.h; sourceTree = "<group>"; };
 		933D6EFD1574F0500039A057 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		9F17ADD11575071E00CE1177 /* somenewfiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = somenewfiles.h; sourceTree = SOURCE_ROOT; };
+		9F17ADD21575071E00CE1177 /* somenewfiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = somenewfiles.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				933D6ED31574F04F0039A057 /* AppDelegate.h */,
+				9F17ADD11575071E00CE1177 /* somenewfiles.h */,
+				9F17ADD21575071E00CE1177 /* somenewfiles.m */,
 				933D6ED41574F04F0039A057 /* AppDelegate.m */,
 				933D6ED61574F04F0039A057 /* MainStoryboard_iPhone.storyboard */,
 				933D6ED91574F04F0039A057 /* MainStoryboard_iPad.storyboard */,
@@ -286,6 +291,7 @@
 				933D6ED51574F04F0039A057 /* AppDelegate.m in Sources */,
 				933D6EDE1574F04F0039A057 /* FirstViewController.m in Sources */,
 				933D6EE51574F04F0039A057 /* SecondViewController.m in Sources */,
+				9F17ADD31575071E00CE1177 /* somenewfiles.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +471,7 @@
 				933D6F031574F0500039A057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		933D6F041574F0500039A057 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +480,7 @@
 				933D6F061574F0500039A057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
