@@ -10,12 +10,10 @@
 
 @implementation SecondViewController
 
-<<<<<<< master
-=======
+
 //kenneth branch 2
 //kenneth branch
 
->>>>>>> local
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
